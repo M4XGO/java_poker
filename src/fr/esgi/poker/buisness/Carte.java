@@ -42,6 +42,14 @@ public class Carte {
     }
 
 
+    public Couleur getCouleur() {
+        return couleur;
+    }
+
+    public void setCouleur(Couleur couleur) {
+        this.couleur = couleur;
+    }
+
     public int getValeur() {
         return valeur;
     }
